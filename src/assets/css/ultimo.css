@@ -1,0 +1,56 @@
+.content {
+    padding: 1.5em;
+  }
+  
+  .content h2 {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 1em;
+  }
+  
+  .person-boxes {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .person-box {
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5em;
+    margin: 0.5em;
+    border-radius: 8px;
+  }
+  
+  .person-box .box-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1em;
+  }
+  
+  .person-box .box-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .person-box .box-bio .bio-name {
+    font-size: 1.25em;
+    color: #020816;
+    margin-bottom: 0.5em;
+  }
+  
+  .person-box .box-bio .bio-position {
+    font-size: 2%;
+    color: #077230;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .person-box .box-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+  

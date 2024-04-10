@@ -1,0 +1,16 @@
+.infoboxes__icono{
+    font-size: 3rem;
+}
+
+button a {
+    color: black;
+    text-decoration: none;
+}
+
+button a:hover {
+    text-decoration: underline;
+}
+.big {
+    margin-right: 5px;
+    font-weight: bold; /* Agregado para hacer que el texto esté en negrita */
+  }

@@ -1,0 +1,35 @@
+/* Estilos para el carrusel */
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Estilos para las imágenes dentro del carrusel */
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos adicionales para hacer el carrusel responsive */
+  @media screen and (max-width: 768px) {
+    /* Cambia el número de diapositivas que se muestran en pantallas más pequeñas */
+    .slick-slider {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Cambia el tamaño de las imágenes en pantallas aún más pequeñas */
+    .slick-slide img {
+      max-width: 80%;
+    }
+  }
+  
